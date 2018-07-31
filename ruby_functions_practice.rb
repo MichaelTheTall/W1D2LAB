@@ -95,12 +95,12 @@ def volume_sphere(r)
   p2 = Math::PI
   p3 = r**3
   answer = p1*p2*p3
-  return answer.to_i
+  return answer.round(1)
 end
 
 def convert(x)
   p1 = x-32
   p2 = 5.0/9
   answer = p1*p2
-  return answer.to_i
+  return answer.round(1)
 end
